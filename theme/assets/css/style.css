@@ -69,6 +69,9 @@ a:hover {
 	color: #FF324D;
 	text-decoration: none;
 }
+.single_bn_link:hover {
+	color: #000;
+}
 a:focus {
 	outline: none;
 }
@@ -1092,6 +1095,7 @@ button:focus:not(:focus-visible) {
 	position: relative;
 	list-style: none;
 	transition: all 0.3s ease 0s;
+	margin-left: 15px;
 }
 .navbar-nav .dropdown-menu {
 	border: 0;
@@ -3014,7 +3018,7 @@ input.text {
 .single_bn_link {
 	position: relative;
 }
-.single_bn_link::before {
+/*.single_bn_link::before {
 	content: "";
 	position: absolute;
 	bottom: 3px;
@@ -3022,7 +3026,7 @@ input.text {
 	background-color: rgba(255,50,77,0.2);
 	width: 100%;
 	z-index: -1;
-}
+}*/
 .single_banner:hover img {
 	-moz-transform: scale(1.06);
 	-webkit-transform: scale(1.06);
@@ -5038,21 +5042,23 @@ footer .widget_title {
 	display: none;
 }
 .pr_flash {
-	background-color: #FF9F00;
-	position: absolute;
-	left: 10px;
-	top: 10px;
-	text-transform: uppercase;
-	color: #fff;
-	padding: 2px 8px;
-	font-size: 13px;
-	z-index: 1;
+	background-color: #000;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px 9px;
+    font-size: 13px;
+    z-index: 1;
+    border-radius: 30px;
+    font-weight: bold;
 }
 .product_info {
 	padding: 15px;
 }
 .price {
-	color: #FF324D;
+	color: #000;
 	font-weight: 600;
 }
 .product_price del {
@@ -7271,4 +7277,29 @@ blockquote p:last-child {
 }
 .input-group > .input-group-append > .btn {
 	height: 100%;
+}
+
+.product_action_boxs {
+    position: relative;
+}
+
+.product_action_boxs a.whatsapp {
+    position: absolute;
+    bottom: 10px;
+    background: #22c55e;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2px 14px;
+    right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.product_action_boxs a.whatsapp i {
+    font-size: 23px;
+    margin-right: 6px;
 }
