@@ -1622,7 +1622,7 @@ button:focus:not(:focus-visible) {
 .top-header {
     padding: 10px 0;
 	transition: all 0.5s ease-in-out;
-	background: #ffd077;
+	background: rgb(236, 46, 12);
 }
 .top-header[class*="bg_"], .top-header[class*="bg-"] {
 	border: 0;
@@ -1631,13 +1631,17 @@ button:focus:not(:focus-visible) {
 	font-size: 14px;
 	vertical-align: middle;
 }
-.top-header li a,
+.top-header,
+.top-header .ddcommon .ddlabel,
+.top-header .ddArrow::before,
+.top-header .contact_detail li,
 .top-header a,
 .top-header li,
 .top-header,
 .top-header i
  {
 	font-weight: bold;
+	color: #fff;
 }
 
 .header_wrap .social_icons li {
@@ -4133,7 +4137,7 @@ footer .widget_title {
 	width: 100%;
 }
 .breadcrumb_section.page-title-mini {
-	padding: 40px 0;
+	padding: 20px 0;
 }
 .page-title-mini .page-title h1 {
 	font-size: 28px;
