@@ -41,16 +41,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
- gtag('config', 'UA-106310707-1', { 'anonymize_ip': true });
-</script>
-
-
 </head>
 
 <body>
@@ -65,6 +55,14 @@
 </div>
 <!-- END LOADER -->
 
+<div class="marquee">
+  <div class="track">
+    <div class="content">&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+    <div class="content">&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+    <div class="content">&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+    <div class="content">&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+  </div>
+</div>
 <!-- Home Popup Section -->
 <div class="modal fade subscribe_popup" id="onload-popup" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -74,16 +72,16 @@
                     <span aria-hidden="true"><i class="ion-ios-close-empty"></i></span>
                 </button>
                 <div class="row g-0">
-                    <div class="col-sm-5">
-                    	<div class="background_bg h-100" data-img-src="assets/images/HUKKA-front.jpg"></div>
+                    <div class="col-12">
+                    	<div class="background_bg h-100"><img src="assets/images/Email_banner_710_x_520_px.png" class="img-fluid"></div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-12">
                         <div class="popup_content">
                             <div class="popup-text">
                                 <div class="heading_s1">
-                                    <h4>Subscribe and Get 25% Discount!</h4>
+                                    <h4>10% Off Your First Order</h4>
                                 </div>
-                                <p>Subscribe to the newsletter to receive updates about new products.</p>
+                                <p>Join our list and we’ll send a one-time code for 10% off your first order. Excludes bundles and sale items. First order only.</p>
                             </div>
                             <form method="post">
                             	<div class="form-group mb-3">
@@ -151,7 +149,7 @@
     	<div class="container">
             <nav class="navbar navbar-expand-lg"> 
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo_light" src="assets/images/logo_light.png" alt="logo" />
+                    
                     <img class="logo_dark" src="assets/images/HUKKA-logo.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false"> 
@@ -161,7 +159,7 @@
                     <ul class="navbar-nav">
                         <li class=""><a class="nav-link nav_item active" href="#">Home</a></li>
                         <li><a class="nav-link nav_item" href="#">About Us</a></li>
-                        <li><a class="nav-link nav_item" href="#">Products</a></li>                                                
+                        <li><a class="nav-link nav_item" href="#">Products</a></li>                        
                         <li><a class="nav-link nav_item" href="#">Contact Us</a></li> 
                     </ul>
                 </div>
@@ -187,12 +185,16 @@
 <div class="banner_section slide_medium shop_banner_slider staggered-animation-wrap">
     <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active background_bg" data-img-src="assets/images/banner2.jpg">
+            <div class="carousel-item active background_bg" data-img-src="assets/images/banner4.jpg">
                 <div class="banner_slide_content">
                     
                 </div>
             </div>
-            <div class="carousel-item background_bg" data-img-src="assets/images/banner1a.jpg">
+			<div class="carousel-item background_bg" data-img-src="assets/images/banner3.jpg">
+                <div class="banner_slide_content">             
+                </div>
+            </div>
+            <div class="carousel-item background_bg" data-img-src="assets/images/Free-Ship-Banner.webp">
                 <div class="banner_slide_content">             
                 </div>
             </div>
@@ -204,35 +206,50 @@
 </div>
 <!-- END SECTION BANNER -->
 
-<div class="text-center">
-    <img src="assets/images/btm-feat-img.jpg" /> 
-</div>
 
-<!-- END MAIN CONTENT -->
-<div class="main_content">
 
 <!-- START SECTION BANNER -->
-<div class="section pb_10">
-	<div class="container">
-    	<div class="row">
+<div class="section pt-5 collection-section">
+	<div class="container-fluid">
+	<div class="row justify-content-center">
+			<div class="col-md-12">
+            	<div class="heading_s1">
+                	<h2>Bestselling Starter Kits</h2>
+					<p>Complete setups our customers love — quality parts, easy to assemble.</p>
+                </div>
+            </div>
+        </div>
+    	<div class="row pt-5">
         	<div class="col-md-6">
             	<div class="single_banner">
-                	<img src="assets/images/shop_banner_img1.jpg" alt="shop_banner_img1"/>
+                	
                     <div class="single_banner_info">
-                        <h5 class="single_bn_title1">Super Sale</h5>
-                        <h3 class="single_bn_title">New Collection</h3>
+                        <h5 class="single_bn_title1">Starter Kits</h5>
+                        <h3 class="single_bn_title">Khalil Mamoon Mini Beast — Starter Kit</h3>
+						<p>Complete setups our customers love — quality parts, easy to assemble.</p>
                         <a href="shop-left-sidebar.html" class="single_bn_link">Shop Now</a>
                     </div>
+					<img src="assets/images/pngtree-single-eastern-hookah.png" alt="shop_banner_img1"/>
+					<div class="price">
+					<small>Only</small>
+					<h3><span>$</span> 199</h3>
+					</div>
                 </div>
             </div>
             <div class="col-md-6">
             	<div class="single_banner">
-                	<img src="assets/images/shop_banner_img2.jpg" alt="shop_banner_img2"/>
+                	
                     <div class="single_banner_info">
-                        <h3 class="single_bn_title">New Season</h3>
-                        <h4 class="single_bn_title1">Sale 40% Off</h4>
+                        <h5 class="single_bn_title1">Starter Kits</h5>
+                        <h4 class="single_bn_title">King Buzz Beginner’s Shisha Kit</h4>
+						<p>Complete setups our customers love — quality parts, easy to assemble.</p>
                         <a href="shop-left-sidebar.html" class="single_bn_link">Shop Now</a>
                     </div>
+					<img src="assets/images/pngtree-single-eastern-hookah2.png" alt="shop_banner_img2"/>
+					<div class="price">
+					<small>Only</small>
+					<h3><span>$</span> 199</h3>
+					</div>
                 </div>
             </div>
         </div>
@@ -240,265 +257,257 @@
 </div>
 <!-- END SECTION BANNER -->
 
+
 <!-- START SECTION SHOP -->
-<div class="section pt-0">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-6">
-            	<div class="heading_s1 text-center">
-                	<h2>Exclusive Products</h2>
+<div class="section pt-5 bestsellers-seciton">
+	<div class="container-fluid">
+	<div class="row justify-content-center">
+			<div class="col-md-12">
+            	<div class="heading_s1">
+                	<h2>Bestsellers</h2>
+					<p>Complete setups our customers love — quality parts, easy to assemble.</p>
                 </div>
             </div>
-		</div>
-        <div class="row">
-        	<div class="col-12">
-            	<!--div class="tab-style1">
-                    <ul class="nav nav-tabs justify-content-center" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="arrival-tab" data-bs-toggle="tab" href="#arrival" role="tab" aria-controls="arrival" aria-selected="true">New Arrival</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="sellers-tab" data-bs-toggle="tab" href="#sellers" role="tab" aria-controls="sellers" aria-selected="false">Best Sellers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="featured-tab" data-bs-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="false">Featured</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="special-tab" data-bs-toggle="tab" href="#special" role="tab" aria-controls="special" aria-selected="false">Special Offer
-</a>
-                        </li>
-                    </ul>
-                </div-->
-                <div class="tab-content">
-                	<div class="tab-pane fade show active" id="arrival" role="tabpanel" aria-labelledby="arrival-tab">
-                        <div class="row shop_container">
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img1.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">Shahad ka desi Tobacco</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$45.00</span>
-                                            <del>$55.25</del>
-                                            <div class="on_sale">
-                                                <span>35% Off</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-            
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img2.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">Desi Patta</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$55.00</span>
-                                            <del>$95.00</del>
-                                            <div class="on_sale">
-                                                <span>25% Off</span>
-                                            </div>
-                                        </div>
-                             
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-12">
+            	<div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-margin="0" data-responsive='{"0":{"items": "2"}, "481":{"items": "2"}, "768":{"items": "4"}, "1199":{"items": "6"}}'>
+                	<div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/product_img1.jpg" alt="product_img1">
+                                </a>
+                          
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$45.00</span>
+                                    <del>$55.25</del>
+                                    <div class="on_sale">
+                                        <span>35% Off</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-                                    <span class="pr_flash">New</span>
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img3.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">Desi Chillum </a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$68.00</span>
-                                            <del>$99.00</del>
-                                        </div>
+                    
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
                             
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-          
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img4.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">Desi Chillum</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$69.00</span>
-                                            <del>$89.00</del>
-                                            <div class="on_sale">
-                                                <span>20% Off</span>
-                                            </div>
-                                        </div>
-                               
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-               
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img5.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">blue dress for woman</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$45.00</span>
-                                            <del>$55.25</del>
-                                            <div class="on_sale">
-                                                <span>35% Off</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-      
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-               
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img6.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">Blue casual check shirt</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$55.00</span>
-                                            <del>$95.00</del>
-                                            <div class="on_sale">
-                                                <span>25% Off</span>
-                                            </div>
-                                        </div>
-                           
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-                                 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-   
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img7.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">white black line dress</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$68.00</span>
-                                            <del>$99.00</del>
-                                            <div class="on_sale">
-                                                <span>20% Off</span>
-                                            </div>
-                                        </div>
-                                       
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-                           
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="product">
-                                    <div class="product_imgs">
-                                        <a href="#">
-                                            <img src="assets/images/product_img8.jpg" alt="product_img1">
-                                        </a>                        
-                                        <div class="product_action_boxs">
-                                         <a href="#ss" class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a></li>                                           
-                                        </div> 
-                                    </div>
-                                    <div class="product_info">
-                                        <h6 class="product_title"><a href="#">Men blue jins Shirt</a></h6>
-                                        <div class="product_price">
-                                            <span class="price">$69.00</span>
-                                            <del>$89.00</del>
-                                            <div class="on_sale">
-                                                <span>20% Off</span>
-                                            </div>
-                                        </div>
-                       
-                                        <div class="pr_desc">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                        </div>
-                                   
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
-            
-                    
-                
+                    <div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/Metal-Hookah.jpg" alt="product_img2">
+                                </a>
+               
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Metal Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$55.00</span>
+                                    <del>$95.00</del>
+                                    <div class="on_sale">
+                                        <span>25% Off</span>
+                                    </div>
+                                </div>
+                               
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+                      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="product">
+                            <span class="pr_flash">New</span>
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/product_img3.jpg" alt="product_img3">
+                                </a>
+                            
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$68.00</span>
+                                    <del>$99.00</del>
+                                </div>
+                     
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+   
+                            </div>
+                        </div>
+                    </div>
+					<div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/Copper-Gold-Hookah.jpg" alt="product_img4">
+                                </a>
+   
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Copper Gold Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$69.00</span>
+                                    <del>$89.00</del>
+                                    <div class="on_sale">
+                                        <span>20% Off</span>
+                                    </div>
+                                </div>
+                   
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/product_img2.jpg" alt="product_img4">
+                                </a>
+   
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$69.00</span>
+                                    <del>$89.00</del>
+                                    <div class="on_sale">
+                                        <span>20% Off</span>
+                                    </div>
+                                </div>
+                   
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/Brown-Deshi-Hookah-chillum.png" alt="product_img5">
+                                </a>
+              
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$45.00</span>
+                                    <del>$55.25</del>
+                                    <div class="on_sale">
+                                        <span>35% Off</span>
+                                    </div>
+                                </div>
+              
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+               
+                            </div>
+                        </div>
+                    </div>
+					<div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/Pure-Brass-Hookah.png" alt="product_img5">
+                                </a>
+              
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$45.00</span>
+                                    <del>$55.25</del>
+                                    <div class="on_sale">
+                                        <span>35% Off</span>
+                                    </div>
+                                </div>
+              
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+               
+                            </div>
+                        </div>
+                    </div>
+					<div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/product_img4.jpg" alt="product_img4">
+                                </a>
+   
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$69.00</span>
+                                    <del>$89.00</del>
+                                    <div class="on_sale">
+                                        <span>20% Off</span>
+                                    </div>
+                                </div>
+                   
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+                     
+                            </div>
+                        </div>
+                    </div>
+					<div class="item">
+                        <div class="product">
+                            <div class="product_img">
+                                <a href="#">
+                                    <img src="assets/images/product_img5.jpg" alt="product_img5">
+                                </a>
+               
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_title"><a href="#">Desi Hookah</a></h6>
+                                <div class="product_price">
+                                    <span class="price">$45.00</span>
+                                    <del>$55.25</del>
+                                    <div class="on_sale">
+                                        <span>35% Off</span>
+                                    </div>
+                                </div>
+              
+                                <div class="pr_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                                </div>
+               
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div> 
+		</div>
     </div>
 </div>
 <!-- END SECTION SHOP -->
+
+
+<!-- END MAIN CONTENT -->
+<div class="main_content">
+
+
 
 <!-- START SECTION SINGLE BANNER --> 
 <!--div class="section bg_light_blue2 pb-0 pt-md-0">
@@ -526,161 +535,9 @@
 </div-->
 <!-- END SECTION SINGLE BANNER --> 
 
-<!-- START SECTION SHOP -->
-<div class="section pt-0">
-	<div class="container">
-    	<div class="row justify-content-center">
-			<div class="col-md-6">
-            	<div class="heading_s1 text-center">
-                	<h2>Featured Products</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-            	<div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-margin="20" data-responsive='{"0":{"items": "1"}, "481":{"items": "2"}, "768":{"items": "3"}, "1199":{"items": "4"}}'>
-                	<div class="item">
-                        <div class="product">
-                            <div class="product_imgs">
-                                <a href="#">
-                                    <img src="assets/images/product_img1.jpg" alt="product_img1">
-                                </a>
-								<div class="product_action_boxs whatsapp">
-                                    <a class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a>
-                                </div>
-                            </div>
-                            <div class="product_info">
-                                <h6 class="product_title"><a href="#">Blue Dress For Woman</a></h6>
-                                <div class="product_price">
-                                    <span class="price">$45.00</span>
-                                    <del>$55.25</del>
-                                    <div class="on_sale">
-                                        <span>35% Off</span>
-                                    </div>
-                                </div>
-                    
-                                <div class="pr_desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product">
-                            <div class="product_imgs">
-                                <a href="#">
-                                    <img src="assets/images/product_img2.jpg" alt="product_img2">
-                                </a>
-								<div class="product_action_boxs whatsapp">
-                                    <a class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a>
-                                </div>
-                            </div>
-                            <div class="product_info">
-                                <h6 class="product_title"><a href="#">Lether Gray Tuxedo</a></h6>
-                                <div class="product_price">
-                                    <span class="price">$55.00</span>
-                                    <del>$95.00</del>
-                                    <div class="on_sale">
-                                        <span>25% Off</span>
-                                    </div>
-                                </div>
-                               
-                                <div class="pr_desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                </div>
-                      
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product">
-                            <span class="pr_flash">New</span>
-                            <div class="product_imgs">
-                                <a href="#">
-                                    <img src="assets/images/product_img3.jpg" alt="product_img3">
-                                </a>
-								<div class="product_action_boxs whatsapp">
-                                    <a class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a>
-                                </div>
-                            </div>
-                            <div class="product_info">
-                                <h6 class="product_title"><a href="#">woman full sliv dress</a></h6>
-                                <div class="product_price">
-                                    <span class="price">$68.00</span>
-                                    <del>$99.00</del>
-                                </div>
-                     
-                                <div class="pr_desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                </div>
-   
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product">
-                            <div class="product_imgs">
-                                <a href="#">
-                                    <img src="assets/images/product_img4.jpg" alt="product_img4">
-                                </a>
-								<div class="product_action_boxs whatsapp">
-                                    <a class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a>
-                                </div>
-                            </div>
-                            <div class="product_info">
-                                <h6 class="product_title"><a href="#">light blue Shirt</a></h6>
-                                <div class="product_price">
-                                    <span class="price">$69.00</span>
-                                    <del>$89.00</del>
-                                    <div class="on_sale">
-                                        <span>20% Off</span>
-                                    </div>
-                                </div>
-                   
-                                <div class="pr_desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                </div>
-                     
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product">
-                            <div class="product_imgs">
-                                <a href="#">
-                                    <img src="assets/images/product_img5.jpg" alt="product_img5">
-                                </a>
-                                <div class="product_action_boxs whatsapp">
-                                    <a class="whatsapp"><i class="ion-social-whatsapp"></i> Whatsapp Me</a>
-                                </div>
-                            </div>
-                            <div class="product_info">
-                                <h6 class="product_title"><a href="#">blue dress for woman</a></h6>
-                                <div class="product_price">
-                                    <span class="price">$45.00</span>
-                                    <del>$55.25</del>
-                                    <div class="on_sale">
-                                        <span>35% Off</span>
-                                    </div>
-                                </div>
-              
-                                <div class="pr_desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                                </div>
-               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-    </div>
-</div>
-<!-- END SECTION SHOP -->
 
 <!-- START SECTION TESTIMONIAL -->
-<div class="section bg_light_blue">
+<div class="section bg_gray">
 	<div class="container">
     	<div class="row justify-content-center">
         	<div class="col-md-6">
@@ -804,97 +661,17 @@
 
 <!-- START FOOTER -->
 <footer class="footer_dark">
-	<div class="footer_top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                	<div class="widget">
-                      
-                        <p>If you are going to use of Lorem Ipsum need to be sure there isn't hidden of text</p>
-                    </div>
-                    <div class="widget">
-                        <ul class="social_icons social_white">
-                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
-                            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-                        </ul>
-                    </div>
-        		</div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                	<div class="widget">
-                        <h6 class="widget_title">Useful Links</h6>
-                        <ul class="widget_links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Location</a></li>
-                            <li><a href="#">Affiliates</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                	<div class="widget">
-                        <h6 class="widget_title">Category</h6>
-                        <ul class="widget_links">
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Woman</a></li>
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Best Saller</a></li>
-                            <li><a href="#">New Arrivals</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-6">
-                	<div class="widget">
-                        <h6 class="widget_title">My Account</h6>
-                        <ul class="widget_links">
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Discount</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Orders History</a></li>
-                            <li><a href="#">Order Tracking</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                	<div class="widget">
-                        <h6 class="widget_title">Contact Info</h6>
-                        <ul class="contact_info contact_info_light">
-                            <li>
-                                <i class="ti-location-pin"></i>
-                                <p>123 Street, Old Trafford, New South London , UK</p>
-                            </li>
-                            <li>
-                                <i class="ti-email"></i>
-                                <a href="mailto:info@sitename.com">info@sitename.com</a>
-                            </li>
-                            <li>
-                                <i class="ti-mobile"></i>
-                                <p>+ 457 789 789 65</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	
     <div class="bottom_footer border-top-tran">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <p class="mb-md-0 text-center text-md-start">© 2020 All Rights Reserved </p>
+                <div class="col-md-12">
+                    <p class="mb-md-0 text-center">© 2020 All Rights Reserved by Bestwebcreator</p> <br>
+				</div>
+				<div class="col-md-12">
+					<div class="warn"><img src="assets/images/heath_warning.webp" style="max-width: 700px;margin:auto;"></div>
                 </div>
-                <div class="col-md-6">
-                    <ul class="footer_payment text-center text-lg-end">
-                        <li><a href="#"><img src="assets/images/visa.png" alt="visa"></a></li>
-                        <li><a href="#"><img src="assets/images/discover.png" alt="discover"></a></li>
-                        <li><a href="#"><img src="assets/images/master_card.png" alt="master_card"></a></li>
-                        <li><a href="#"><img src="assets/images/paypal.png" alt="paypal"></a></li>
-                        <li><a href="#"><img src="assets/images/amarican_express.png" alt="amarican_express"></a></li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </div>
